@@ -6,8 +6,8 @@ const HeaderComponent = () => {
   return (
     <header style={{ position: 'fixed', top: 0, width: '100%', backgroundColor: '#1A1A1A', zIndex: 1000, padding: '0 10px' }}>
       <nav style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '10px' }}>
-      <div style={{ display: 'flex', alignItems: 'center', color: '#FFF', fontWeight: 'bold' }}>
-        <img src={chii} alt="chii" width="30px" style={{ marginRight: '10px' }} />
+      <div style={{ display: 'flex', alignItems: 'center', color: '#FFF', fontWeight: 'bold',padding:'1px' }}>
+        <img src={chii} alt="chii" width="25px" style={{ marginRight: '10px' }} />
         <div>
           NTUST CSIE LAB
         </div>
