@@ -2,7 +2,7 @@ import React from 'react';
 import HeaderComponent from './HeaderComponent';
 import FooterComponent from './FooterComponent';
 
-const TestComponent = () => {
+const BodyContent = () => {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
       <HeaderComponent />
@@ -22,14 +22,14 @@ const TestComponent = () => {
           <p>這是期刊論文發表的內容。</p>
         </div>
 
-        <div id="plans" style={{ height: '500px', padding: '20px', border: '1px solid #ccc' }}>
-          <h2>研究計畫</h2>
-          <p>這是研究計畫的內容。</p>
+        <div id="members" style={{ height: '500px', padding: '20px', border: '1px solid #ccc' }}>
+          <h2>實驗室成員</h2>
+          <p>Lab小可愛們。</p>
         </div>
 
-        <div id="more" style={{ height: '500px', padding: '20px', border: '1px solid #ccc' }}>
-          <h2>更多選項</h2>
-          <p>這是更多選項的內容。</p>
+        <div id="contact" style={{ height: '500px', padding: '20px', border: '1px solid #ccc' }}>
+          <h2>聯絡方式</h2>
+          <p>聯絡我們</p>
         </div>
       </div>
       <FooterComponent />
@@ -37,4 +37,4 @@ const TestComponent = () => {
   );
 };
 
-export default TestComponent;
+export default BodyContent;
