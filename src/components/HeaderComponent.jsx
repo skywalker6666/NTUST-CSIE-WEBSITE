@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import chii from '/src/assets/chiikawa.png';
+import {Carousel} from 'react-bootstrap';
 
 const HeaderComponent = () => {
   return (
@@ -30,6 +31,7 @@ const HeaderComponent = () => {
           </li>
         </ul>
       </nav>
+      
     </header>
   );
 };
