@@ -20,7 +20,7 @@ const HeaderComponent = () => {
             <Link to="#professor" style={{ color: '#FFF', textDecoration: 'none' }}>指導老師</Link>
           </li>
           <li style={{ margin: '0 10px' }}>
-            <Link to="#publications" style={{ color: '#FFF', textDecoration: 'none' }}>期刊論文發表</Link>
+            <Link to="#publications" style={{ color: '#FFF', textDecoration: 'none' }}>研究方向</Link>
           </li>
           <li style={{ margin: '0 10px' }}>
             <Link to="#members" style={{ color: '#FFF', textDecoration: 'none' }}>實驗室成員</Link>

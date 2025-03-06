@@ -18,8 +18,8 @@ const BodyContent = () => {
         </div>
 
         <div id="publications" style={{ height: '500px', padding: '20px', border: '1px solid #ccc' }}>
-          <h2>期刊論文發表</h2>
-          <p>這是期刊論文發表的內容。</p>
+          <h2>研究方向</h2>
+          <p>這是研究方向的內容。</p>
         </div>
 
         <div id="members" style={{ height: '500px', padding: '20px', border: '1px solid #ccc' }}>
