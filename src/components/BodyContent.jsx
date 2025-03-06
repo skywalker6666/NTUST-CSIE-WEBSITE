@@ -1,7 +1,7 @@
 import React from 'react';
 import HeaderComponent from './HeaderComponent';
 import FooterComponent from './FooterComponent';
-import CuteMember from './CuteMember';
+import CuteMemberCarousel from './CuteMemberCarousel';
 import ResearchContent from './ResearchContent';
 import ChiaChihContent from './ChiaChihContent';
 import { Button,Card,Row,Col,Carousel } from 'react-bootstrap';
@@ -78,14 +78,15 @@ const BodyContent = () => {
         <div id="members" style={{ height: '600px', padding: '20px', border: '1px solid #ccc' }}>
           <h2>實驗室成員</h2>
           <h2><strong>Lab小可愛們(研究生)</strong></h2>
-          <CuteMember id="Member1" memberName="楊承峰" textfile="這是小可愛1的內容。" picture={kanahei} />
+          {/* <CuteMember id="Member1" memberName="楊承峰" textfile="這是小可愛1的內容。" picture={kanahei} />
           <CuteMember id="Member2" memberName="廖軒敖" textfile="這是小可愛2的內容。" picture={gabo} />
           <CuteMember id="Member3" memberName="李宥睿" textfile="這是小可愛3的內容。" picture={kanahei} />
           <CuteMember id="Member4" memberName="陳星潔" textfile="這是小可愛4的內容。" picture={kanahei} />
           <CuteMember id="Member5" memberName="陳廷祥" textfile="這是小可愛5的內容。" picture={kanahei} /> 
           <CuteMember id="Member6" memberName="張育愷" textfile="這是小可愛6的內容。" picture={kanahei} />
           <CuteMember id="Member7" memberName="潘致瑋" textfile="這是小可愛7的內容。" picture={kanahei} />
-          <CuteMember id="Member8" memberName="李聖文" textfile="這是小可愛8的內容。" picture={kanahei} />
+          <CuteMember id="Member8" memberName="李聖文" textfile="這是小可愛8的內容。" picture={kanahei} /> */}
+          <CuteMemberCarousel/>
         </div>
 
         <div id="contact" style={{ height: '600px', padding: '20px', border: '1px solid #ccc' }}>
