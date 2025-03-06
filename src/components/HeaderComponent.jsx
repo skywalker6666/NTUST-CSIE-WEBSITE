@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import chii from '/src/assets/chiikawa.png';
+import {Carousel} from 'react-bootstrap';
 
 const HeaderComponent = () => {
   return (
@@ -20,7 +21,7 @@ const HeaderComponent = () => {
             <Link to="#professor" style={{ color: '#FFF', textDecoration: 'none' }}>指導老師</Link>
           </li>
           <li style={{ margin: '0 10px' }}>
-            <Link to="#publications" style={{ color: '#FFF', textDecoration: 'none' }}>期刊論文發表</Link>
+            <Link to="#publications" style={{ color: '#FFF', textDecoration: 'none' }}>研究方向</Link>
           </li>
           <li style={{ margin: '0 10px' }}>
             <Link to="#members" style={{ color: '#FFF', textDecoration: 'none' }}>實驗室成員</Link>
@@ -30,6 +31,7 @@ const HeaderComponent = () => {
           </li>
         </ul>
       </nav>
+      
     </header>
   );
 };
