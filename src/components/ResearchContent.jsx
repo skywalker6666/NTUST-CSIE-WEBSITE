@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Row, Col, Container } from 'react-bootstrap';
-import PUF from '../assets/PUF.png';
+import chii from '../assets/chiikawa.png';
 
 function ResearchContent() {
   return (
@@ -9,11 +9,9 @@ function ResearchContent() {
         <Row className="g-0">
           <Col md={4} className="bg-secondary d-flex align-items-center justify-content-center text-light">
             <Card.Img
-              src={PUF}
+              src={chii}
               alt="圖片"
-              className="img-fluid rounded-start d-none"
             />
-            <span>Image</span>
           </Col>
           <Col md={8}>
             <Card.Body>
