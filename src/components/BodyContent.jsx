@@ -6,6 +6,7 @@ import ResearchContent from './ResearchContent';
 import ChiaChihContent from './ChiaChihContent';
 import IntroContent from './IntroCotent';
 import ContactContent from './ContactContent';
+import CuteMember from './CuteMember';
 import { Button,Card,Row,Col,Carousel } from 'react-bootstrap';
 import CarouselBar from './CarouselBar';
 import AISP from '../assets/AISP.gif';
