@@ -9,14 +9,14 @@ const CuteMember = (props) => (
             <Card.Title>{props.memberName}</Card.Title>
             <Card.Text>{props.textfile}</Card.Text>
         </Card.Body>
-        <Card.Footer>{props.subject}</Card.Footer>
+        <Card.Footer>Research Domain:<br/>{props.subject}</Card.Footer>
     </Card>
 );
 
 const CuteMemberCarousel = () => {
     const members = [
         { id: 'Member1', memberName: '楊承峰', textfile: '這是小可愛1的內容。', picture: kanahei,subject:'PUF' },
-        { id: 'Member2', memberName: '廖軒敖', textfile: '這是小可愛2的內容。', picture: gabo,subject:'AI Cybersecurity' },
+        { id: 'Member2', memberName: '廖軒敖', textfile: '思考一下', picture: gabo,subject:'AI Cybersecurity' },
         { id: 'Member3', memberName: '李宥睿', textfile: '這是小可愛3的內容。', picture: kanahei,subject:'TEE' },
         { id: 'Member4', memberName: '陳星潔', textfile: '這是小可愛4的內容。', picture: kanahei,subject:'PUF' },
         { id: 'Member5', memberName: '陳廷祥', textfile: '這是小可愛5的內容。', picture: kanahei,subject:'PUF' },
@@ -36,7 +36,7 @@ const CuteMemberCarousel = () => {
             {chunkedMembers.map((group, index) => (
                 <Carousel.Item key={index}>
                     <Container>
-                        <Row className="justify-content-center">
+                        <Row className="justify-content-center g-2">
                             {group.map(member => (
                                 <Col key={member.id} xs={6} md={3}>
                                     <CuteMember
