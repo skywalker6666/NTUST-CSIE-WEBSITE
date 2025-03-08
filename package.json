@@ -3,13 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://alightqq.github.io/NTUST-CSIE-WEBSITE",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
@@ -32,6 +33,5 @@
     "globals": "^15.14.0",
     "sass": "^1.85.1",
     "vite": "^6.2.0"
-  },
-  "homepage": "https://AlightQQ.github.io/NTUST-CSIE-WEBSITE"
+  }
 }
