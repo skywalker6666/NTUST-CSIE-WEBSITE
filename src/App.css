@@ -1,3 +1,7 @@
+.read-the-docs {
+  color: #888;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
@@ -11,34 +15,126 @@
 }
 
 .header {
-
+  position: fixed;
   top: 0;
   width: 100%;
-  height: 50px;
-  background-color: black;
+  height: 60px;
+  z-index: 1000;
+  background-color: #1a1a1a;
   text-align: left;
-  color: white;
-  left: 0;
-  right: 0;
+  justify-content: flex-end;
+  display: flex;
 }
-.btn-bd-primary {
-  font-weight: 600;
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #3686ef;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 14px;
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 10px;
-  width: 80px;
-  transition: all 0.5s;
-  cursor: pointer;
+  width: 100%;
+}
+
+.nav-content {
+  justify-content: flex-start;
+  display: flex;
+  align-items: right;
+  color: #FFF;
+  font-weight: bold;
+  padding: 1px;
+}
+
+.ul {
+  display: flex;
+  list-style: none;
   margin: 5px;
+  padding: 0;
+  justify-content: flex-end;
+}
+
+.li >{
+  margin: 0;
+  padding: 10px;
+  margin-right: auto;
+}
+
+.background {
+  flex: 1;
+  opacity: 0.9;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  overflow-y: auto;
+  background: url("./assets/modern_bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  /* Ensure the image covers the entire div */
+}
+
+.bg {
   position: fixed;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* z-index: -1; */
+  object-fit: cover;
+  opacity: 0.2;
+}
+
+.sections {
+  height: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.link-style {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.cardFooter {
+  font-size: 10px !important;
+  border-radius: 20px;
+  text-transform: uppercase;
 }
 
 
-.read-the-docs {
-  color: #888;
+
+#bar>.carousel-indicators {
+  display: flex;
+  top: -1;
+  transform: translateX(0%) translateY(0%);
+  z-index: 1;
+}
+.carousel-bar {
+  width: 800px;
+  height: 450px;
+  object-fit:cover;
+}
+.carousel-indicators {
+  display: flex;
+  position: relative;
+  top: -1;
+  right: 50%;
+  left: 50%;
+  transform: translateX(0%) translateY(150%);
+  z-index: 1;
+}
+
+#members>.carousel-indicators button {
+  border-radius: 45%;
+  background-color: black !important;
+  /* Inactive indicator color */
+  transition: background-color 0.3s, transform 0.3s;
+  /* Smooth transition */
+}
+
+#bar>.carousel-indicators button {
+  border-radius: 50%;
+  background-color: black !important;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.bodyContent,
+.sections {
+  position: relative;
+  padding-top: 60px;
 }
