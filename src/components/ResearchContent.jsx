@@ -1,26 +1,26 @@
 import React from 'react';
 import { Card, Row, Col, Container } from 'react-bootstrap';
-import chii from '../assets/chiikawa.png';
 
-function ResearchContent() {
+
+function ResearchContent(props) {
   return (
     <Container className="mt-5">
-      <Card className="mb-3" style={{ maxWidth: '800px' }}>
-        <Row className="g-0">
+      <Card className="mb-3" style={{ maxWidth: '100%',backgroundColor:'white'}}>
+        <Row className="g-5">
           <Col md={4} className="bg-secondary d-flex align-items-center justify-content-center text-light">
-            <Card.Img
-              src={chii}
-              alt="圖片"
-            />
+            <Card.Img src={props.picture} style={{ height: '250px', width: 'auto', objectFit: 'cover',background:'white'}} />
           </Col>
           <Col md={8}>
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
+            <Card.Body g-8>
+              <Card.Title><strong>{props.title}</strong></Card.Title>
               <Card.Text>
-                <a>CC's Lin實驗室著重於</a>
-              </Card.Text>
-              <Card.Text>
-                <small className="text-muted">Last updated 3 mins ago</small>
+              <a>{props.describe}</a>
+                <ul>
+                  <li>{props.line1}</li>
+                  <li>{props.line2}</li>
+                  <li>{props.line3}</li>
+                  <li>{props.line4}</li>
+                </ul>
               </Card.Text>
             </Card.Body>
           </Col>
