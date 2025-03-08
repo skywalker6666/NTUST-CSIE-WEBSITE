@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import chii from '/src/assets/chiikawa.png';
-import { Carousel } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 
 const HeaderComponent = () => {
   return (
@@ -15,19 +15,19 @@ const HeaderComponent = () => {
         </div>
         <ul className='ul'>
           <li className='li'>
-            <Link to="#intro" className='link-style'>實驗室簡介</Link>
+            <Link to="#intro" className='link-style'><Button variant="dark" size='sm'>實驗室簡介</Button></Link>
           </li>
           <li className='li'>
-            <Link to="#professor" className='link-style'>指導老師</Link>
+            <Link to="#professor" className='link-style'><Button variant="dark" size='sm'>指導老師</Button></Link>
           </li>
           <li className='li'>
-            <Link to="#publications" className='link-style'>研究方向</Link>
+            <Link to="#publications" className='link-style'><Button variant="dark" size='sm'>研究方向</Button></Link>
           </li>
           <li className='li'>
-            <Link to="#members" className='link-style'>實驗室成員</Link>
+            <Link to="#members" className='link-style'><Button variant="dark" size='sm'>實驗室成員</Button></Link>
           </li>
           <li className='li'>
-            <Link to="#contact" className='link-style'>聯絡方式</Link>
+            <Link to="#contact" className='link-style'><Button variant="dark" size='sm'>聯絡方式</Button></Link>
           </li>
         </ul>
       </nav>
