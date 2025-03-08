@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:'/NTUST-CSIE-WEBSITE/',
+  base: '/NTUST-CSIE-WEBSITE/',
   plugins: [react()],
 })
