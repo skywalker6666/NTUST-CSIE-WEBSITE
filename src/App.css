@@ -1,3 +1,7 @@
+.read-the-docs {
+  color: #888;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
@@ -27,7 +31,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  width: 100%; 
+  width: 100%;
 }
 
 .nav-content {
@@ -39,26 +43,18 @@
   padding: 1px;
 }
 
-.btn-bd-primary {
-  font-weight: 600;
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #3686ef;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 14px;
-  padding: 10px;
-  width: 80px;
-  transition: all 0.5s;
-  cursor: pointer;
+.ul {
+  display: flex;
+  list-style: none;
   margin: 5px;
-  position: fixed;
+  padding: 0;
+  justify-content: flex-end;
 }
 
-
-.read-the-docs {
-  color: #888;
+.li {
+  margin: 0;
+  padding: 10px;
+  margin-right: auto;
 }
 
 .background {
@@ -94,31 +90,47 @@
   text-decoration: none;
 }
 
-.ul {
-  display: flex;
-  list-style: none;
-  margin: 5px;
-  padding: 0;
-  justify-content: flex-end;
-}
-
-.li {
-  margin: 0;
-  padding: 10px;
-  margin-right: auto;
-}
-
-
 .cardFooter {
   font-size: 10px !important;
   border-radius: 20px;
   text-transform: uppercase;
 }
 
-.carousel-image {
+
+
+#bar>.carousel-indicators {
+  display: flex;
+  top: -1;
+  transform: translateX(0%) translateY(0%);
+  z-index: 1;
+}
+.carousel-bar {
   width: 800px;
   height: 450px;
-  object-fit: cover;
+  object-fit:cover;
+}
+.carousel-indicators {
+  display: flex;
+  position: relative;
+  top: -1;
+  right: 50%;
+  left: 50%;
+  transform: translateX(0%) translateY(150%);
+  z-index: 1;
+}
+
+#members>.carousel-indicators button {
+  border-radius: 45%;
+  background-color: black !important;
+  /* Inactive indicator color */
+  transition: background-color 0.3s, transform 0.3s;
+  /* Smooth transition */
+}
+
+#bar>.carousel-indicators button {
+  border-radius: 50%;
+  background-color: black !important;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .bodyContent,

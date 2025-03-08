@@ -30,7 +30,7 @@ const CuteMemberCarousel = () => {
     }
 
     return (
-        <Carousel className='mx-auto' interval={10000} controls={false}  style={{maxWidth:'90%', position:'relative'}}>
+        <Carousel id="members"className='mx-auto' interval={10000} controls={false}   style={{maxWidth:'90%', position:'relative'}}>
             {chunkedMembers.map((group, index) => (
                 <Carousel.Item key={index} >
                     <Container >

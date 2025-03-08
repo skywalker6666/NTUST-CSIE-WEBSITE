@@ -6,10 +6,10 @@ import anyasfamily from "../assets/anya'sfamily.jpg"
 import feren from "../assets/fern.webp";
 const CarouselBar = () => {
     return (
-        <Carousel interval={3000} pause="hover">
+        <Carousel id="bar"interval={3000} pause="hover">
             <Carousel.Item>
                 <img
-                    className="d-block w-100 carousel-image"
+                    className="d-block w-100 carousel-bar"
                     src={fri}
                     alt="第一張圖片"
                 />
@@ -20,7 +20,7 @@ const CarouselBar = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    className="d-block w-100 carousel-image"
+                    className="d-block w-100 carousel-bar"
                     src={anyasfamily}
                     alt="第二張圖片"
                 />
@@ -32,7 +32,7 @@ const CarouselBar = () => {
 
             <Carousel.Item>
                 <img
-                    className="d-block w-100 carousel-image"
+                    className="d-block w-100 carousel-bar"
                     src={chiikawabg}
                     alt="第三張圖片"
                 />
