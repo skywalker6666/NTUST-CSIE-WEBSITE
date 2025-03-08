@@ -5,7 +5,6 @@ import FooterComponent from './components/FooterComponent'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import backgroundImage from './assets/modern_bg.jpg';
 import BodyContent from './components/BodyContent'
-import GalleryCarousel from './components/GalleryCarousel'
 
 import 'bootstrap/dist/css/bootstrap.css';
 
