@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import chii from '/src/assets/chiikawa.png';
-import {Carousel} from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 
 const HeaderComponent = () => {
   return (
@@ -13,25 +13,25 @@ const HeaderComponent = () => {
             NTUST CC Lin's LAB
           </div>
         </div>
-        <ul style={{ display: 'flex', listStyle: 'none', margin: 0, padding: 0 }}>
-          <li style={{ margin: '0 10px' }}>
-            <Link to="#intro" style={{ color: '#FFF', textDecoration: 'none' }}>實驗室簡介</Link>
+        <ul className='ul'>
+          <li className='li'>
+            <Link to="#intro" className='link-style'>實驗室簡介</Link>
           </li>
-          <li style={{ margin: '0 10px' }}>
-            <Link to="#professor" style={{ color: '#FFF', textDecoration: 'none' }}>指導老師</Link>
+          <li className='li'>
+            <Link to="#professor" className='link-style'>指導老師</Link>
           </li>
-          <li style={{ margin: '0 10px' }}>
-            <Link to="#publications" style={{ color: '#FFF', textDecoration: 'none' }}>研究方向</Link>
+          <li className='li'>
+            <Link to="#publications" className='link-style'>研究方向</Link>
           </li>
-          <li style={{ margin: '0 10px' }}>
-            <Link to="#members" style={{ color: '#FFF', textDecoration: 'none' }}>實驗室成員</Link>
+          <li className='li'>
+            <Link to="#members" className='link-style'>實驗室成員</Link>
           </li>
-          <li style={{ margin: '0 10px' }}>
-            <Link to="#contact" style={{ color: '#FFF', textDecoration: 'none' }}>聯絡方式</Link>
+          <li className='li'>
+            <Link to="#contact" className='link-style'>聯絡方式</Link>
           </li>
         </ul>
       </nav>
-      
+
     </header>
   );
 };

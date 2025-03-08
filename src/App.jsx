@@ -22,15 +22,10 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-          <HeaderComponent />
-          <GalleryCarousel />
-          <div style={{ flex: 1, marginTop: '60px', marginBottom: '40px', overflowY: 'auto' }}> {/* Adjust margins to avoid content being hidden behind the fixed header and footer */}
-            <img src={backgroundImage} alt="background" className='bg' />
-            <BodyContent />
-          </div>
-          <FooterComponent />
-        </div>
+        <HeaderComponent />
+        <img src={backgroundImage} alt="background" className='bg' />
+        <BodyContent />
+        <FooterComponent />
       </BrowserRouter>
 
     </>

@@ -1,4 +1,4 @@
-import chiikawaBg from '../assets/chiikawa_background.jpg';
+import chiikawaBg from '../assets/chiikawa_bg.png';
 import frirenBg from '../assets/friren.jpg';
 import anyaFamilyBg from "../assets/anya'sfamily.jpg";
 const GalleryCarousel = () => {

@@ -65,3 +65,43 @@
   object-fit: cover;
   opacity: 0.2;
 }
+
+.sections {
+  position: relative;
+  height: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.link-style {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.li {
+  margin: 0;
+  padding: 10px;
+}
+
+
+.cardFooter {
+  font-size: 10px !important;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+.carousel-image {
+  width: 800px;
+  height: 450px;
+  object-fit: cover;
+}
+.bodyContent{
+  position: relative;
+  top: 60px;
+}
