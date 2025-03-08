@@ -14,11 +14,11 @@ const IntroContent = () => {
         maxWidth: '80%'  // 固定最大寬度
     }}>
         <div >
-              <h3 style={{ fontSize: '20px', marginBottom: '10px' }}>CC Lin's實驗室研究方向著重於應用與開發不同領域的資訊安全技術，包含硬體資安(Hardware Security)與軟體資安(Cybersecurity)。</h3>
-              <p style={{ fontSize: '16px', marginBottom: '10px' }}>相關技術的應用與發展包含：</p>
-              <ol style={{ fontSize: '15px' }}>
-                <li style={{ fontSize: '17px' }}>硬體信任根 (Root of Trust, RoT) - Physical Unclonable Function (PUF)
-                    <ul style={{ fontSize: '14px' }}>
+              <h3 style={{ fontSize: '25px', marginBottom: '10px' }}>CC Lin's實驗室研究方向著重於應用與開發不同領域的資訊安全技術，包含硬體資安(Hardware Security)與軟體資安(Cybersecurity)。</h3>
+              <p style={{ fontSize: '21px', marginBottom: '10px' }}>相關技術的應用與發展包含：</p>
+              <ol style={{ fontSize: '20px' }}>
+                <li style={{ fontSize: '22px' }}>硬體信任根 (Root of Trust, RoT) - Physical Unclonable Function (PUF)
+                    <ul style={{ fontSize: '19px' }}>
                         <li>PUF 設計與優化</li>
                         <li>PUF 在 IoT 環境中的應用</li>
                         <li>PUF 的安全性與穩定性</li>
@@ -26,24 +26,24 @@ const IntroContent = () => {
                     </ul>
                 </li>
 
-                <li style={{ fontSize: '17px' }}>可信任執行環境 (Trusted Execution Environment, TEE)
-                    <ul style={{ fontSize: '14px' }}>
+                <li style={{ fontSize: '22px' }}>可信任執行環境 (Trusted Execution Environment, TEE)
+                    <ul style={{ fontSize: '19px' }}>
                         <li>TEE 設計與優化</li>
                         <li>TEE 的可擴展性</li>
                         <li>安全漏洞分析</li>
                         <li>應用場景: TEE 在移動支付、物聯網、雲計算等領域中的應用和挑戰。</li>
                     </ul>
                 </li>
-                <li style={{ fontSize: '17px' }}>人工智慧安全與隱私保護 (AI Security and Privacy)
-                    <ul style={{ fontSize: '14px' }}>
+                <li style={{ fontSize: '22px' }}>人工智慧安全與隱私保護 (AI Security and Privacy)
+                    <ul style={{ fontSize: '19px' }}>
                         <li>對抗性攻擊與防禦</li>
                         <li>隱私保護機制</li>
                         <li>AI模型的可信性</li>
                         <li>倫理與法律考量</li>
                     </ul>
                 </li>
-                <li style={{ fontSize: '17px' }}>安全邊緣運算 (Secure Edge Computing)
-                    <ul style={{ fontSize: '14px' }}>
+                <li style={{ fontSize: '22px' }}>安全邊緣運算 (Secure Edge Computing)
+                    <ul style={{ fontSize: '19px' }}>
                         <li>分佈式安全機制</li>
                         <li>數據隱私保護</li>
                         <li>輕量級安全協議</li>
@@ -51,7 +51,7 @@ const IntroContent = () => {
                     </ul>
                 </li>
               </ol>
-              <p style={{ fontSize: '20px' }}>目前實驗室成員包括指導教授、碩士一般生共 8 名（碩一 8 名）。</p>
+              <p style={{ fontSize: '25px' }}>目前實驗室成員包括指導教授、碩士一般生共 8 名（碩一 8 名）。</p>
         </div>  
     </div>
   );
