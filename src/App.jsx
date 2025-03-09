@@ -19,7 +19,11 @@ function App() {
     }
   };
   return (
-    <>
+    <div             style={{
+      transform: 'scale(1)',// 鎖定比例，縮放 80%
+      transformOrigin: 'top left', // 鎖定左上角為縮放原點
+      // overflow: 'hidden'      // 超過部分隱藏
+  }}>
       <BrowserRouter>
         <HeaderComponent />
         <img src={backgroundImage} alt="background" className='bg' />
@@ -27,7 +31,7 @@ function App() {
         <FooterComponent />
       </BrowserRouter>
 
-    </>
+    </div>
   )
 }
 
