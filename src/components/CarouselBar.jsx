@@ -42,7 +42,6 @@ const CarouselBar = () => {
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
-        // </div>
     );
 };
 

@@ -8,7 +8,7 @@ function ResearchContent(props) {
       <Card className="mb-3" style={{ maxWidth: '100%',backgroundColor:'white'}}>
         <Row className="g-5">
           <Col md={4} className="bg-secondary d-flex align-items-center justify-content-center text-light">
-            <Card.Img src={props.picture} style={{ height: '250px', width: 'auto', objectFit: 'cover',background:'white'}} />
+            <Card.Img src={props.picture} style={{ height: 'auto', width: '100%', objectFit: 'contain',background:'white'}} />
           </Col>
           <Col md={8}>
             <Card.Body g-8>
