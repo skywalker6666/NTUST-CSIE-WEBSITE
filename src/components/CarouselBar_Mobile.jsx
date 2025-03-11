@@ -6,20 +6,19 @@ import anyasfamily from "../assets/anya'sfamily.jpg"
 import feren from "../assets/fern.webp";
 const CarouselBar = () => {
     return (
-        <Carousel id="cp"  interval={3000} pause="hover">
-            <Carousel.Item>
+        <Carousel interval={3000} pause="hover">
+            <Carousel.Item  id="mb">
                 <img
                     className="d-block w-100 carousel-bar"
                     src={fri}
                     alt="第一張圖片"
-                    style={{objectFit: 'cover'}}
                 />
                 <Carousel.Caption>
                     <h3>第一張圖片標題</h3>
                     <p>這是第一張圖片的描述。</p>
                 </Carousel.Caption>
             </Carousel.Item>
-            {/* <Carousel.Item>
+            <Carousel.Item>
                 <img
                     className="d-block w-100 carousel-bar"
                     src={anyasfamily}
@@ -41,7 +40,7 @@ const CarouselBar = () => {
                     <h3>第三張圖片標題</h3>
                     <p>這是第三張圖片的描述。</p>
                 </Carousel.Caption>
-            </Carousel.Item> */}
+            </Carousel.Item>
         </Carousel>
     );
 };

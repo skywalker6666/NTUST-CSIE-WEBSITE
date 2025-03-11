@@ -89,24 +89,76 @@
   color: #FFF;
   text-decoration: none;
 }
-
+.link-style2 {
+  color: #000;
+  text-decoration: none;
+}
+.custom-dropdown-toggle::after {
+  display: none !important; /* 隱藏箭頭 */
+}
 .cardFooter {
   font-size: 10px !important;
   border-radius: 20px;
   text-transform: uppercase;
 }
+btn-dark{
+  background-color: #000;
 
+}
+#mb img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.card-img{
+  object-fit: cover;
+  height: 200px;
+}
+.map-container {
+  width: 100%;
+  max-width: 800px; /* 可自行調整最大寬度 */
+  margin: 0 auto; /* 讓地圖置中 */
+}
 
+body, html {
+  overflow-x: hidden; /* 讓整個畫面不會超出 */
+  width: 100vw;
+}
 
-#bar>.carousel-indicators {
+.BodyContent_Mobile {
+  max-width: 100vw; /* 防止內容超出 */
+  overflow-x: hidden;
+}
+
+ #cp>.carousel-indicators{
   display: flex;
   top: -1;
   transform: translateX(0%) translateY(0%);
   z-index: 1;
 }
-.carousel-bar {
+#mb>.carousel-indicators {
+  display: flex;
+  top: -1;
+  transform: translateX(0%) translateY(0%);
+  z-index: 1;
+}
+.fullscreen-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000; /* 確保地圖顯示在最上層 */
+}
+
+.fullscreen-iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+ #cp img  {
   width: 800px;
-  height: 450px;
+  height: 450px!important;
   object-fit:cover;
 }
 .carousel-indicators {
@@ -137,4 +189,14 @@
 .sections {
   position: relative;
   padding-top: 60px;
+}
+
+.mobile-only{
+  display: none;
+}
+
+@media(max-width: 768px){
+  .mobile-only{
+    display: block;
+  }
 }

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://skywalker66.github.io/NTUST-CSIE-WEBSITE",
+  "homepage": "https://alightqq.github.io/NTUST-CSIE-WEBSITE",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
@@ -17,6 +17,7 @@
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.9",
     "react-dom": "^19.0.0",
+    "react-responsive": "^10.0.1",
     "react-router-dom": "^6.29.0",
     "react-router-hash-link": "^2.4.3"
   },

@@ -2,13 +2,13 @@ import React from 'react';
 import { Card, Row, Col, Container } from 'react-bootstrap';
 
 
-function ResearchContent(props) {
+function ResearchContent_Mobile(props) {
   return (
     <Container className="mt-5">
-      <Card className="mb-3" style={{ maxWidth: '100%',backgroundColor:'white', border:'1px solid black'}}>
+      <Card className="mb-3" style={{ width:'85vw',maxWidth: '100%',backgroundColor:'white'}}>
         <Row className="g-5">
           <Col md={4} className=" d-flex align-items-center justify-content-center text-light">
-            <Card.Img src={props.picture} style={{margin:'auto', maxWidth: '100%',maxHeight: '100%', objectFit: 'contain',display:'block'}} />
+            <Card.Img src={props.picture} style={{ height: 'auto', width: '100%', objectFit: 'contain',background:'white'}} />
           </Col>
           <Col md={8}>
             <Card.Body g-8>
@@ -30,4 +30,4 @@ function ResearchContent(props) {
   );
 }
 
-export default ResearchContent;
+export default ResearchContent_Mobile;
