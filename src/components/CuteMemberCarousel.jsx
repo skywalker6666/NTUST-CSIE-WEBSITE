@@ -10,11 +10,12 @@ import togawa_group from '../assets/togawa_group.jpg';
 import nunu from '../assets/nunu.jpg';
 import piske from '../assets/piske.png';
 import gabo2 from '../assets/gabo2.jpg';
+import heruku from '../assets/heruku.jpg';
 import CuteMember from './CuteMember';
 const CuteMemberCarousel = () => {
     const members = [
         { id: 'Member1', memberName: '楊承峰', textfile: '這是小可愛1的內容。', picture1: piske,picture2:kanahei,subject:'PUF' },
-        { id: 'Member2', memberName: '廖軒敖', textfile: '思考一下', picture1: gabo,picture2:kanahei,subject:'AI Cybersecurity' },
+        { id: 'Member2', memberName: '廖軒敖', textfile: '思考一下', picture1: heruku,picture2:gabo,subject:'AI Cybersecurity' },
         { id: 'Member3', memberName: '李宥睿', textfile: '這是小可愛3的內容。', picture1: yugi, picture2:kanahei ,subject:'TEE' },
         { id: 'Member4', memberName: '陳星潔', textfile: '這是小可愛4的內容。', picture1: hachi,picture2: kanahei,subject:'PUF' },
         { id: 'Member5', memberName: '陳廷祥', textfile: '這是小可愛5的內容。', picture1: eren,picture2:kanahei,subject:'PUF' },

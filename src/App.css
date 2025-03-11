@@ -89,11 +89,21 @@
   color: #FFF;
   text-decoration: none;
 }
-
+.link-style2 {
+  color: #000;
+  text-decoration: none;
+}
+.custom-dropdown-toggle::after {
+  display: none !important; /* 隱藏箭頭 */
+}
 .cardFooter {
   font-size: 10px !important;
   border-radius: 20px;
   text-transform: uppercase;
+}
+btn-dark{
+  background-color: #000;
+
 }
 
 
@@ -137,4 +147,14 @@
 .sections {
   position: relative;
   padding-top: 60px;
+}
+
+.mobile-only{
+  display: none;
+}
+
+@media(max-width: 768px){
+  .mobile-only{
+    display: block;
+  }
 }
