@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import backgroundImage from './assets/modern_bg.jpg';
 import BodyContent from './components/BodyContent';
 import HeaderComponent_Mobile from './components/HeaderComponent_Mobile';
+import BodyContent_Mobile from './components/BodyContent_Mobile';
 import ASIP from './assets/AISP.gif';
 
 import 'bootstrap/dist/css/bootstrap.css';
@@ -29,7 +30,9 @@ function App() {
       {isMobile?
         <BrowserRouter>
           <HeaderComponent_Mobile />
-          <BodyContent />
+            <div className="BodyContnet_Mobile">
+              <BodyContent_Mobile/>
+            </div>
           <FooterComponent />
         </BrowserRouter>
         :

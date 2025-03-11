@@ -38,7 +38,7 @@ const HeaderComponent_Mobile = () => {
                 <Dropdown.Item eventKey="4" href="#members">
                     實驗室成員
                 </Dropdown.Item>
-                <Dropdown.Item eventKey="5" href="contact">
+                <Dropdown.Item eventKey="5" href="#contact">
                     聯絡方式
                 </Dropdown.Item>
             </Dropdown.Menu>
