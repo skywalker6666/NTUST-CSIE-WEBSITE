@@ -14,14 +14,14 @@ import heruku from '../assets/heruku.jpg';
 import CuteMember from './CuteMember';
 const CuteMemberCarousel = () => {
     const members = [
-        { id: 'Member1', memberName: '楊承峰', textfile: '這是小可愛1的內容。', picture1: piske,picture2:kanahei,subject:'PUF' },
+        { id: 'Member1', memberName: '楊承峰', textfile: '聖文字 B', picture1: piske,picture2:kanahei,subject:'PUF' },
         { id: 'Member2', memberName: '廖軒敖', textfile: '思考一下', picture1: heruku,picture2:gabo,subject:'AI Cybersecurity' },
-        { id: 'Member3', memberName: '李宥睿', textfile: '這是小可愛3的內容。', picture1: yugi, picture2:kanahei ,subject:'TEE' },
-        { id: 'Member4', memberName: '陳星潔', textfile: '這是小可愛4的內容。', picture1: hachi,picture2: kanahei,subject:'PUF' },
-        { id: 'Member5', memberName: '陳廷祥', textfile: '這是小可愛5的內容。', picture1: eren,picture2:kanahei,subject:'PUF' },
-        { id: 'Member6', memberName: '張育愷', textfile: '這是小可愛6的內容。', picture1: togawa_group,picture2:kanahei,subject:'Federated Learning' },
-        { id: 'Member7', memberName: '潘致瑋', textfile: '這是小可愛7的內容。', picture1: nunu,picture2:kanahei,subject:'Federated Learning' },
-        { id: 'Member8', memberName: '李聖文', textfile: '這是小可愛8的內容。', picture1: gabo2,picture2:kanahei,subject:'Federated Learning' }
+        { id: 'Member3', memberName: '李宥睿', textfile: '聖文字 R', picture1: yugi, picture2:kanahei ,subject:'TEE' },
+        { id: 'Member4', memberName: '陳星潔', textfile: '聖文字 Y', picture1: hachi,picture2: kanahei,subject:'PUF' },
+        { id: 'Member5', memberName: '陳廷祥', textfile: '聖文字 X', picture1: eren,picture2:kanahei,subject:'PUF' },
+        { id: 'Member6', memberName: '張育愷', textfile: '聖文字 W', picture1: togawa_group,picture2:kanahei,subject:'Federated Learning' },
+        { id: 'Member7', memberName: '潘致瑋', textfile: '聖文字 H', picture1: nunu,picture2:kanahei,subject:'Federated Learning' },
+        { id: 'Member8', memberName: '李聖文', textfile: '聖文字 I', picture1: gabo2,picture2:kanahei,subject:'Federated Learning' }
     ];
 
     // 將成員資料分組，每組4個

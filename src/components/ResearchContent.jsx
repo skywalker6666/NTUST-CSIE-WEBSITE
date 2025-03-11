@@ -5,7 +5,7 @@ import { Card, Row, Col, Container } from 'react-bootstrap';
 function ResearchContent(props) {
   return (
     <Container className="mt-5">
-      <Card className="mb-3" style={{ maxWidth: '100%',backgroundColor:'white', border:'2px solid black'}}>
+      <Card className="mb-3" style={{ maxWidth: '100%',backgroundColor:'white', border:'1px solid black'}}>
         <Row className="g-5">
           <Col md={4} className=" d-flex align-items-center justify-content-center text-light">
             <Card.Img src={props.picture} style={{margin:'auto', maxWidth: '100%',maxHeight: '100%', objectFit: 'contain',display:'block'}} />

@@ -6,8 +6,8 @@ import anyasfamily from "../assets/anya'sfamily.jpg"
 import feren from "../assets/fern.webp";
 const CarouselBar = () => {
     return (
-        <Carousel id="mb"interval={3000} pause="hover">
-            <Carousel.Item>
+        <Carousel interval={3000} pause="hover">
+            <Carousel.Item  id="mb">
                 <img
                     className="d-block w-100 carousel-bar"
                     src={fri}

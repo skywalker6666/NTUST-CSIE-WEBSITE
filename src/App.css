@@ -105,7 +105,7 @@ btn-dark{
   background-color: #000;
 
 }
-#mb.carousel img{
+#mb img{
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -130,7 +130,13 @@ body, html {
   overflow-x: hidden;
 }
 
- #cp>.carousel-indicators,#mb>.carousel-indicators {
+ #cp>.carousel-indicators{
+  display: flex;
+  top: -1;
+  transform: translateX(0%) translateY(0%);
+  z-index: 1;
+}
+#mb>.carousel-indicators {
   display: flex;
   top: -1;
   transform: translateX(0%) translateY(0%);
@@ -150,9 +156,9 @@ body, html {
   height: 100%;
   border: 0;
 }
-#cp.carousel-bar {
+ #cp img  {
   width: 800px;
-  height: 450px;
+  height: 450px!important;
   object-fit:cover;
 }
 .carousel-indicators {

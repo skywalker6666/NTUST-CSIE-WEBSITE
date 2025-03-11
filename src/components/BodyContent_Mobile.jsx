@@ -75,30 +75,30 @@ const BodyContent_Mobile = () => {
         <h2>實驗室成員</h2>
         <h2><strong>(研究生)</strong></h2>
         <Container>
-            <Row className="g-3">
+            <Row className="g-2">
                 <Col xs={6} md={6}>
-                    <CuteMember_Mobile id='Member1' memberName= '楊承峰' textfile='這是小可愛1的內容。' picture1={piske} picture2={kanahei} subject='PUF'/>
+                    <CuteMember_Mobile id='Member1' memberName= '楊承峰' textfile='聖文字 B' picture1={piske} picture2={kanahei} subject='PUF'/>
                 </Col>
                 <Col xs={6} md={6}>
                     <CuteMember_Mobile id="Member2" memberName='廖軒敖' textfile='思考一下' picture1={heruku} picture2={gabo} subject='AI CyberSecurity'/>
                 </Col>
                 <Col xs={6} md={6}>
-                    <CuteMember_Mobile id="Member3" memberName='李宥睿' textfile='這是小可愛3的內容。' picture1={yugi} picture2={gabo} subject='TEE'/>
+                    <CuteMember_Mobile id="Member3" memberName='李宥睿' textfile='聖文字 R' picture1={yugi} picture2={gabo} subject='TEE'/>
                 </Col>
                 <Col xs={6} md={6}>
-                    <CuteMember_Mobile id="Member4" memberName='陳星潔' textfile='這是小可愛4的內容。' picture1={hachi} picture2={gabo} subject='PUF'/>
+                    <CuteMember_Mobile id="Member4" memberName='陳星潔' textfile='聖文字 Y' picture1={hachi} picture2={gabo} subject='PUF'/>
                 </Col>
                 <Col xs={6} md={6}>
-                    <CuteMember_Mobile id="Member5" memberName='陳廷祥' textfile='這是小可愛5的內容。' picture1={eren} picture2={gabo} subject='PUF'/>
+                    <CuteMember_Mobile id="Member5" memberName='陳廷祥' textfile='聖文字 X' picture1={eren} picture2={gabo} subject='PUF'/>
                 </Col>
                 <Col xs={6} md={6}>
-                    <CuteMember_Mobile id="Member6" memberName='潘致瑋' textfile='這是小可愛6的內容。' picture1={nunu} picture2={gabo} subject='Federated Learning'/>   
+                    <CuteMember_Mobile id="Member6" memberName='潘致瑋' textfile='聖文字 H' picture1={nunu} picture2={gabo} subject='Federated Learning'/>   
                 </Col>
                 <Col xs={6} md={6}>
-                    <CuteMember_Mobile id="Member7" memberName='張育愷' textfile='這是小可愛7的內容。' picture1={togawa_group} picture2={gabo} subject='Federated Learning'/>
+                    <CuteMember_Mobile id="Member7" memberName='張育愷' textfile='聖文字 W' picture1={togawa_group} picture2={gabo} subject='Federated Learning'/>
                 </Col>
                 <Col xs={6} md={6}>
-                    <CuteMember_Mobile id="Member8" memberName='李聖文' textfile='這是小可愛8的內容。' picture1={gabo2} picture2={gabo} subject='Federated Learning'/>
+                    <CuteMember_Mobile id="Member8" memberName='李聖文' textfile='聖文字 I' picture1={gabo2} picture2={gabo} subject='Federated Learning'/>
                 </Col>
             </Row>
         </Container>

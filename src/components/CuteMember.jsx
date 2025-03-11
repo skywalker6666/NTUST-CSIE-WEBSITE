@@ -12,7 +12,7 @@ const CuteMember = (props) => {
         setImageSrc(props.picture1);
     };
     return (
-        <Card style={{width: '14rem', margin: '5px', gap: '5px' }}>
+        <Card style={{width: '16rem', height:'auto', margin: '5px', gap: '5px' }}>
          {/* <Card style={{height:'100vh',width: '100vw', margin: '3px', gap: '5px' }}> */}
             <Card.Img variant="top" src={imageSrc} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={{ height: '200px', width: 'auto', transition: '0.3s', cursor: 'pointer', background: 'white' }} />
             <Card.Body>
