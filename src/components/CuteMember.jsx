@@ -14,7 +14,7 @@ const CuteMember = (props) => {
     return (
         <Card style={{width: '14rem', margin: '5px', gap: '5px' }}>
          {/* <Card style={{height:'100vh',width: '100vw', margin: '3px', gap: '5px' }}> */}
-            <Card.Img variant="top" src={imageSrc} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={{ height: '150px', width: 'auto', transition: '0.3s', cursor: 'pointer', background: 'white' }} />
+            <Card.Img variant="top" src={imageSrc} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={{ height: '200px', width: 'auto', transition: '0.3s', cursor: 'pointer', background: 'white' }} />
             <Card.Body>
                 <Card.Title>{props.memberName}</Card.Title>
                 <Card.Text>{props.textfile}</Card.Text>

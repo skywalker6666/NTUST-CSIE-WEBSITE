@@ -5,10 +5,10 @@ import { Card, Row, Col, Container } from 'react-bootstrap';
 function ResearchContent(props) {
   return (
     <Container className="mt-5">
-      <Card className="mb-3" style={{ maxWidth: '100%',backgroundColor:'white'}}>
+      <Card className="mb-3" style={{ maxWidth: '100%',backgroundColor:'white', border:'2px solid black'}}>
         <Row className="g-5">
           <Col md={4} className=" d-flex align-items-center justify-content-center text-light">
-            <Card.Img src={props.picture} style={{ height: 'auto', maxWidth: '100%',maxHeight: '100%', objectFit: 'contain',background:'white'}} />
+            <Card.Img src={props.picture} style={{margin:'auto', maxWidth: '100%',maxHeight: '100%', objectFit: 'contain',display:'block'}} />
           </Col>
           <Col md={8}>
             <Card.Body g-8>

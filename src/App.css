@@ -105,7 +105,7 @@ btn-dark{
   background-color: #000;
 
 }
-.carousel img{
+#mb.carousel img{
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -150,7 +150,7 @@ body, html {
   height: 100%;
   border: 0;
 }
-.carousel-bar {
+#cp.carousel-bar {
   width: 800px;
   height: 450px;
   object-fit:cover;
