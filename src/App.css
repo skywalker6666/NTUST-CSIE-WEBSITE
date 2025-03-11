@@ -130,7 +130,7 @@ body, html {
   overflow-x: hidden;
 }
 
-#bar>.carousel-indicators {
+ #cp>.carousel-indicators,#mb>.carousel-indicators {
   display: flex;
   top: -1;
   transform: translateX(0%) translateY(0%);

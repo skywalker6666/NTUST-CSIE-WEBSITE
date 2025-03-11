@@ -30,7 +30,7 @@ function App() {
       {isMobile?
         <BrowserRouter>
           <HeaderComponent_Mobile />
-            <div className="BodyContnet_Mobile" style={{backgroundColor:'#ffff66'}}>
+            <div className="BodyContnet_Mobile" style={{backgroundColor:'#ffffff'}}>
               <BodyContent_Mobile/>
             </div>
           <FooterComponent />

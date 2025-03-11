@@ -26,24 +26,24 @@ const IntroContent = () => {
                     </ul>
                 </li>
 
-                <li style={{ fontSize: '22px' }}>可信任執行環境 (Trusted Execution Environment, TEE)
-                    <ul style={{ fontSize: '19px' }} className="responsive-list">
+                <li style={{ fontSize: 'clamp(16px, 2vw, 22px)' }}>可信任執行環境 (Trusted Execution Environment, TEE)
+                    <ul style={{ fontSize: 'clamp(14px, 1.5vw, 19px)' }} className="responsive-list">
                         <li>TEE 設計與優化</li>
                         <li>TEE 的可擴展性</li>
                         <li>安全漏洞分析</li>
                         <li>應用場景: TEE 在移動支付、物聯網、雲計算等領域中的應用和挑戰。</li>
                     </ul>
                 </li>
-                <li style={{ fontSize: '22px' }}>人工智慧安全與隱私保護 (AI Security and Privacy)
-                    <ul style={{ fontSize: '19px' }} className="responsive-list">
+                <li style={{ fontSize: 'clamp(16px, 2vw, 22px)' }}>人工智慧安全與隱私保護 (AI Security and Privacy)
+                    <ul style={{ fontSize: 'clamp(14px, 1.5vw, 19px)' }} className="responsive-list">
                         <li>對抗性攻擊與防禦</li>
                         <li>隱私保護機制</li>
                         <li>AI模型的可信性</li>
                         <li>倫理與法律考量</li>
                     </ul>
                 </li>
-                <li style={{ fontSize: '22px' }}>安全邊緣運算 (Secure Edge Computing)
-                    <ul style={{ fontSize: '19px' }} className="responsive-list">
+                <li style={{ fontSize: 'clamp(16px, 2vw, 22px)' }}>安全邊緣運算 (Secure Edge Computing)
+                    <ul style={{ fontSize: 'clamp(14px, 1.5vw, 19px)' }} className="responsive-list">
                         <li>分佈式安全機制</li>
                         <li>數據隱私保護</li>
                         <li>輕量級安全協議</li>
@@ -51,7 +51,7 @@ const IntroContent = () => {
                     </ul>
                 </li>
               </ol>
-              <p style={{ fontSize: '25px' }}>目前實驗室成員包括指導教授、碩士一般生共 8 名（碩一 8 名）。</p>
+              <p style={{ fontSize: 'clamp(18px, 2.5vw, 25px)' }}>目前實驗室成員包括指導教授、碩士一般生共 8 名（碩一 8 名）。</p>
         </div>  
     </div>
   );
